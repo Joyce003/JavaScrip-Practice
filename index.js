@@ -102,3 +102,8 @@ console.log(isLoanGranted); //Output = false
  const insufficientFunds = cash < cost;
  const canBuyCar = !(loanRejected && insufficientFunds);
  console.log(canBuyCar);//Output = false 
+
+ let isTextEmpty = false;
+ let isAttachment = true; 
+ const isPosted = isAttachment || ! isTextEmpty;
+ console.log(isPosted); //Output = false 
