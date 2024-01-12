@@ -49,8 +49,13 @@ const isOnline = true;
 const isLoggedOn = true;
 console.log(isOnline && isLoggedOn);
 //Or operator = only 1 value needs to be true
-let isBatteryOn = true;
-
+let isBatteryOff = true;
+let isPowerOff= false;
+console.log(isBatteryOff || isPowerOff); 
+//Another Or Operator
+let isBatteryOn = false;
+let isPowerOn = false;
+console.log(isBatteryOn || isPowerOn);
 //Adding string values together
 "Followers: + 55";
 console.log("Followers" + "55");//result = Followers: 55. However, why not log consol.log (Followers: 55)? Why would we add 10 and 55 to give us 1055, why not just log 1055 to start with? Also, if we need this number to update based on user input, what variable would we use? Let? Var? Something else? Why would we need to manually put in numbers? //button funcion @likes document id likes box
@@ -61,5 +66,9 @@ console.log(label)
 //Set up network via informational interviews with people you look up to
 //- I'm trying to learn about how to be like you
 //bootcamp route in 3 months //no college //boot camp grads/brats
+
+//NOT operater (!) negates a boolean value
+let isBulbOff = true;
+console.log(!isBulbOff);
 
  
