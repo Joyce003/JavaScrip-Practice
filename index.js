@@ -85,8 +85,8 @@ console.log(!(isFireplaceOff && isCoalsOut)); //Output = false, true
 //Check if a person can buy a car depending on whether their loan is approve or their cash amount is greater than the car cost
 let isLoanApproved = true;
 let cow = 30000;
-let cost = 40000;
-const isCarBought = isLoanApproved || (cow > cost);
+let feed = 40000;
+const isCarBought = isLoanApproved || (cow > feed);
 console.log(isCarBought);//Output = true
 
 //Save the opposite of isLoanRejectd into the variable
@@ -95,4 +95,10 @@ const isLoanGranted = !
 isLoanRejected;
 console.log(isLoanGranted); //Output = false
 
- 
+ //Check if a person can buy a car or not.
+ let loanRejected = true;
+ let cash = 300000;
+ let cost = 400000;
+ const insufficientFunds = cash < cost;
+ const canBuyCar = !(loanRejected && insufficientFunds);
+ console.log(canBuyCar);//Output = false 
