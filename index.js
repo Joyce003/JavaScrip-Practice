@@ -107,3 +107,10 @@ console.log(isLoanGranted); //Output = false
  let isAttachment = true; 
  const isPosted = isAttachment || ! isTextEmpty;
  console.log(isPosted); //Output = false 
+
+ //Save a file if the cloud storage is greater than the file size or the system storage is greater than the file size
+ let driveStorage = 4;
+ let systemStorage = 8;
+ let fileSize = 5;
+ const result = (driveStorageStorage > fileSize) || (systemStorage > fileSize);
+ console.log("Saved? : " + result);//Output = Saved? : true
