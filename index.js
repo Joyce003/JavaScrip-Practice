@@ -69,6 +69,17 @@ console.log(label)
 
 //NOT operater (!) negates a boolean value
 let isBulbOff = true;
-console.log(!isBulbOff);
+console.log(!isBulbOff); //Output = false (because we negated true)
+//Using NOT operator (!) and parentheses () to negate logical expressions
+let isBatteryOff = true;
+let isPowerOff = false;
+
+console.log(!(isBatteryOff && isPowerOff)); //output = true  
+
+//When logical expressions start false but become true by negating it
+let isFireplaceOff = true;
+let isCoalsIn = false;
+console.log(isFireplaceOff && isCoalsIn);
+console.log(!(isFireplaceOff && isCoalsIn)); //Output = false, true
 
  
