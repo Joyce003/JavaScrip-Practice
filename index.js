@@ -78,8 +78,21 @@ console.log(!(isBatteryOff && isPowerOff)); //output = true
 
 //When logical expressions start false but become true by negating it
 let isFireplaceOff = true;
-let isCoalsIn = false;
-console.log(isFireplaceOff && isCoalsIn);
-console.log(!(isFireplaceOff && isCoalsIn)); //Output = false, true
+let isCoalsOut = false;
+console.log(isFireplaceOff && isCoalsOut);
+console.log(!(isFireplaceOff && isCoalsOut)); //Output = false, true
+
+//Check if a person can buy a car depending on whether their loan is approve or their cash amount is greater than the car cost
+let isLoanApproved = true;
+let cow = 30000;
+let cost = 40000;
+const isCarBought = isLoanApproved || (cow > cost);
+console.log(isCarBought);//Output = true
+
+//Save the opposite of isLoanRejectd into the variable
+let isLoanRejected = true;
+const isLoanGranted = !
+isLoanRejected;
+console.log(isLoanGranted); //Output = false
 
  
