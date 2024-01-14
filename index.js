@@ -165,3 +165,8 @@ let testsIsRunning = false;
 let outputShows = true;
 const result = testsIsRunnning || outputShows;
 console.log("Code working?: " + result); //Output = Code working? : true 
+
+//Check if the stock is available or not.
+let isStockFull = false;
+const isAvailable = !isStockFull;
+console.log(isAvailable); //Output = true
