@@ -154,3 +154,8 @@ console.log(result);//PUtput = 2002
 
 //Diplay the string "Repeat music background: true"
 console.log("Repeat music background: " + true); 
+
+//Users can log in if they "don't" fail the bot test. Use an "operator" to check if the user can log in.
+let failedBotTest = false;
+const loggedIn = !failedBotTest;
+console.log("Logged in? :" + loggedIn);//Output = true
