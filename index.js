@@ -147,3 +147,7 @@ console.log(score); //Output = 3
 //Save the value "101" into the "const" variable "result."
 const result = 100 + 2;
 console.log(result);//Output = 102 //Only valuable to do if you're pulling two different data types from two different sources.
+
+//Save the value "1001" into the variable "result".
+const result = "200" + 2;
+console.log(result);//PUtput = 2002
