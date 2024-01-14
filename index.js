@@ -140,3 +140,6 @@ console.log("Orange" !== "Nokia"); //Output = true
 //What does this code display in the console? False.
 const result = "sun" !== "sun";
 console.log(result); //OUtput = false
+//Create a "const" variable that contains a number
+const score = 3;
+console.log(score); //Output = 3 
