@@ -137,3 +137,6 @@ console.log(tally === expected); //Output = false
 //What does !== do? It checks if a string "isn't" equal to another string.
 //Check if "Apple" isn't equal to "Nokia".
 console.log("Orange" !== "Nokia"); //Output = true
+//What does this code display in the console? False.
+const result = "sun" !== "sun";
+console.log(result); //OUtput = false
