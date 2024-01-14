@@ -121,5 +121,10 @@ console.log(isLoanGranted); //Output = false
  console.log(pass); 
 
  //Make this code display true in the console
- const age = 22;
+ const age = 21;
  console.log(age < 25);
+//Check if "score" is greater than or equal to "minScore" with the greater-than-or-equal-to operator.
+const tally = 11;
+const minTally = 10;
+const pass = tally >= minTally;
+console.log(pass);
