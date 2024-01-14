@@ -127,4 +127,9 @@ console.log(isLoanGranted); //Output = false
 const tally = 11;
 const minTally = 10;
 const pass = tally >= minTally;
-console.log(pass);
+console.log(pass);//Output = true
+
+//Use a comparison operator to compare "score" to "expected" that displays "false" in the console.
+const tally = "high";
+const expected = "low"; 
+console.log(tally === expected); //Output = false
