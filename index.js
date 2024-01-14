@@ -119,3 +119,7 @@ console.log(isLoanGranted); //Output = false
  const minScore = 29;
  const pass = score >= minScore;
  console.log(pass); 
+
+ //Make this code display true in the console
+ const age = 22;
+ console.log(age < 25);
