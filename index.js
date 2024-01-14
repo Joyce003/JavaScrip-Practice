@@ -159,3 +159,9 @@ console.log("Repeat music background: " + true);
 let failedBotTest = false;
 const loggedIn = !failedBotTest;
 console.log("Logged in? :" + loggedIn);//Output = true
+
+//Check if the code is working or not. The code works works if the "tests are running" OR the "output is giving the desired result."
+let testsIsRunning = false; 
+let outputShows = true;
+const result = testsIsRunnning || outputShows;
+console.log("Code working?: " + result); //Output = Code working? : true 
