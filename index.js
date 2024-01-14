@@ -114,3 +114,8 @@ console.log(isLoanGranted); //Output = false
  let fileSize = 5;
  const result = (driveStorageStorage > fileSize) || (systemStorage > fileSize);
  console.log("Saved? : " + result);//Output = Saved? : true
+ //Operator storing the result of a comparison in a variable with the equal sign =
+ const score = 33;
+ const minScore = 29;
+ const pass = score >= minScore;
+ console.log(pass); 
