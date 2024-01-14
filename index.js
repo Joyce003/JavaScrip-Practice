@@ -133,3 +133,7 @@ console.log(pass);//Output = true
 const tally = "high";
 const expected = "low"; 
 console.log(tally === expected); //Output = false
+
+//What does !== do? It checks if a string "isn't" equal to another string.
+//Check if "Apple" isn't equal to "Nokia".
+console.log("Orange" !== "Nokia"); //Output = true
