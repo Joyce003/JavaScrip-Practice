@@ -143,3 +143,7 @@ console.log(result); //OUtput = false
 //Create a "const" variable that contains a number
 const score = 3;
 console.log(score); //Output = 3 
+
+//Save the value "101" into the "const" variable "result."
+const result = 100 + 2;
+console.log(result);//Output = 102 //Only valuable to do if you're pulling two different data types from two different sources.
