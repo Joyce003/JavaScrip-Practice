@@ -150,4 +150,7 @@ console.log(result);//Output = 102 //Only valuable to do if you're pulling two d
 
 //Save the value "1001" into the variable "result".
 const result = "200" + 2;
-console.log(result);//PUtput = 2002
+console.log(result);//PUtput = 2002 
+
+//Diplay the string "Repeat music background: true"
+console.log("Repeat music background: " + true); 
