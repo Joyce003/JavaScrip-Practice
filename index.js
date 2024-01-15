@@ -170,3 +170,10 @@ console.log("Code working?: " + result); //Output = Code working? : true
 let isStockFull = false;
 const isAvailable = !isStockFull;
 console.log(isAvailable); //Output = true
+
+//Create a "const" variable named "isPasswordCorrect" to check if the password introduced by the user is the same as the password the system has stored before.
+const userPassowrd = 2244432;
+const savedPassword = 2244432;
+
+const isPasswordCorrect = userPassword === savedPassword;
+console.log(isPasswordCorrect); //Output = true
