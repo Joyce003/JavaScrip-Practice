@@ -182,3 +182,8 @@ console.log(isPasswordCorrect); //Output = true
 let isFireOn = true;
 let isPowerOn = false;
 console.log(isFireOn) || isPowerOn;
+
+//If all the conditions are false, then the || operator returns false. Set the isPowerOn variable to false. 
+let isBatteryOn = false;
+let isPowerOn = false;
+console.log(isBatteryOn || isPowerOn); //Output = false because an Operator needs at least 1 condition = true and none of them are true.
