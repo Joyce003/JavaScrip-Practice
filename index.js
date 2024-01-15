@@ -187,3 +187,7 @@ console.log(isFireOn) || isPowerOn;
 let isBatteryOn = false;
 let isPowerOn = false;
 console.log(isBatteryOn || isPowerOn); //Output = false because an Operator needs at least 1 condition = true and none of them are true.
+
+//NOT operator ! negates a boolean value. That means it returns true if a condition is false and vice versa. 
+let isBulbOn = true;
+console.log(!isBulbOn); //Output = false.
