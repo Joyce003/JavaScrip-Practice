@@ -191,3 +191,8 @@ console.log(isBatteryOn || isPowerOn); //Output = false because an Operator need
 //NOT operator ! negates a boolean value. That means it returns true if a condition is false and vice versa. 
 let isBulbOn = true;
 console.log(!isBulbOn); //Output = false.
+
+//We can use ! to negat logical expressions as well. To do that, we place the logical expression between parentheses. 
+let isBatteryOn = false;
+let isPowerOn = true;
+console.log(!(isBatteryOn && isPowerOn)); //Output = true
