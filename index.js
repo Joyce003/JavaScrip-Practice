@@ -177,3 +177,8 @@ const savedPassword = 2244432;
 
 const isPasswordCorrect = userPassword === savedPassword;
 console.log(isPasswordCorrect); //Output = true
+
+//OR operator ||
+let isFireOn = true;
+let isPowerOn = false;
+console.log(isFireOn) || isPowerOn;
