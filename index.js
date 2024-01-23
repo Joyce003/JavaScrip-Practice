@@ -203,3 +203,4 @@ console.log(!(isBatteryOn && isPowerOn)); //Output = true
 //false 
 
 const budget = 23;
+const price = 80;
