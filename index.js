@@ -205,3 +205,5 @@ console.log(!(isBatteryOn && isPowerOn)); //Output = true
 const budget = 23;
 const price = 80;
 const hasEnoughMoney = price >= budget;
+console.log("I have enough money:"); 
+console.log(hadEnoughMoney); 
