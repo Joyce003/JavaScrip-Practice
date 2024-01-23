@@ -192,7 +192,14 @@ console.log(isBatteryOn || isPowerOn); //Output = false because an Operator need
 let isBulbOn = true;
 console.log(!isBulbOn); //Output = false.
 
-//We can use ! to negat logical expressions as well. To do that, we place the logical expression between parentheses. 
+//We can use ! to negate logical expressions as well. To do that, we place the logical expression between parentheses. 
 let isBatteryOn = false;
 let isPowerOn = true;
 console.log(!(isBatteryOn && isPowerOn)); //Output = true
+
+//You want to check if you have enough money to buy new headphones
+//Output: 
+//I have enough money: 
+//false 
+
+const budget = 23;
