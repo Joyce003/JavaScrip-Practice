@@ -236,3 +236,6 @@ if (true) {
 }
 
 //Added a second code snippet to expand the code block
+if (true) {
+    console.log("Good morning!");
+}
