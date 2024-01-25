@@ -230,3 +230,5 @@ const greet = false;
 if (greet) {
     console.log("Hello!");
 }
+//Add the display statement between curly braces to create the if statement's code block.
+if (true) {}
