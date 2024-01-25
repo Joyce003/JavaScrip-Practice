@@ -240,3 +240,6 @@ if (true) {
     console.log("Good morning!");
     console.log ("You have three appointments today");
 }
+
+//Make the code block run by assigning a value to the variable
+const wakeUpTime = true;
