@@ -226,3 +226,7 @@ console.log("Hello!");
 }
 
 //Skipping code block using false. Why would we need to use this? Why not just not write the code to start with? Set greet to false to avoid printing Hello! in the output.
+const greet = false;
+if (greet) {
+    console.log("Hello!");
+}
