@@ -214,5 +214,7 @@ console.log("I'm a code block!");}
 
 //Use console.log() to add one more line ath the beginning. We can add as many lines as we want!
 if (true) {
-    
+    console.log ("Look at me!");
+    console.log("I'm a code block"); 
 }
+//Output = Look at me! I'm a code block
