@@ -218,3 +218,5 @@ if (true) {
     console.log("I'm a code block"); 
 }
 //Output = Look at me! I'm a code block
+
+//Create a variable greet and set it to true. Then, use greet a condition for the if statement.
