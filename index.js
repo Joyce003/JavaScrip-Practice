@@ -231,4 +231,8 @@ if (greet) {
     console.log("Hello!");
 }
 //Add the display statement between curly braces to create the if statement's code block.
-if (true) {}
+if (true) {
+    console.log("Ticket booked!"); 
+}
+
+//Added a second code snippet to expand the code block
