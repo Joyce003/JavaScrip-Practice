@@ -211,3 +211,8 @@ console.log(hadEnoughMoney);
 //This piece of code is called a "code block". We write it between curly braces {}.
 if (true) {
 console.log("I'm a code block!");}
+
+//Use console.log() to add one more line ath the beginning. We can add as many lines as we want!
+if (true) {
+    
+}
