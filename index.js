@@ -204,6 +204,10 @@ console.log(!(isBatteryOn && isPowerOn)); //Output = true
 
 const budget = 23;
 const price = 80;
-const hasEnoughMoney = price >= budget;
+const hasEnoughMoney = price <= budget;
 console.log("I have enough money:"); 
 console.log(hadEnoughMoney); 
+
+//This piece of code is called a "code block". We write it between curly braces {}.
+if (true) {
+console.log("I'm a code block!");}
