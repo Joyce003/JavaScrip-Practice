@@ -283,3 +283,9 @@ if (isDay) {
 } else {
     console.log("Lights on!");
 }
+
+//Code Wars
+const stringToNumber = function(str){
+    // put your code here
+    return null;
+  }
