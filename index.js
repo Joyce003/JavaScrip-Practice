@@ -284,8 +284,11 @@ if (isDay) {
     console.log("Lights on!");
 }
 
-//Code Wars
-const stringToNumber = function(str){
+//Code Wars - convert string to number
+  const stringToNumber = function(str){
     // put your code here
-    return null;
+    return parseFloat(str);
   }
+  
+  const myNumber = stringToNumber("123.45");
+  console.log(myNumber); //Now my sring is a number!
