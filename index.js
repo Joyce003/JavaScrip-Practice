@@ -243,3 +243,15 @@ if (true) {
 
 //Make the code block run by assigning a value to the variable
 const wakeUpTime = true;
+if (wakeUpTime) {
+    console.log("Rise and shine, Jo!");
+}
+
+//Coding Else Statements 
+let condition = true; 
+if (condition) {
+    console.log("1");
+} //Output = 1
+
+//If statement that uses ! condition to run a different code if the condition is false
+let condition = true;
