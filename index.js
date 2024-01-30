@@ -269,3 +269,9 @@ if (condition) {
 } else {
     console.log("2");
 }
+
+//We want to turn the lights off when it's day time.
+let isDay = true; 
+if (isDay === true) {
+    console.log("Lights off!");
+} 
