@@ -262,3 +262,10 @@ if (!condition) {
     console.log("2");
 }
 
+//Instead of creating two if statements, we use an if/else statement to achieve the same result
+let condition = false;
+if (condition) {
+    console.log("1");
+} else {
+    
+}
