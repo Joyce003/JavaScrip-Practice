@@ -275,3 +275,9 @@ let isDay = true;
 if (isDay === true) {
     console.log("Lights off!");
 } 
+
+//If it's night, as in not day time, we want the lights on.
+let isDay = false;
+if (isDay) {
+    console.log("Light's off!");
+}
