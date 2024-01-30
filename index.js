@@ -280,4 +280,6 @@ if (isDay === true) {
 let isDay = false;
 if (isDay) {
     console.log("Light's off!");
+} else {
+    console.log("Lights on!");
 }
