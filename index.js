@@ -255,3 +255,10 @@ if (condition) {
 
 //If statement that uses ! condition to run a different code if the condition is false
 let condition = true;
+if (condition) {
+    console.log("1");
+}
+if (!condition) {
+    console.log("2");
+}
+
