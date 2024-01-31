@@ -292,3 +292,18 @@ if (isDay) {
   
   const myNumber = stringToNumber("123.45");
   console.log(myNumber); //Now my sring is a number!
+
+  //My solution
+  const givenString = true;
+  if (givenString) {
+    console.log(aNumber);
+  } 
+
+  //
+  function makeNegative(num) {
+    if (num > 0) {
+      return num * -1;
+    } else {
+      return num;
+    }
+  }
