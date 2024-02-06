@@ -318,4 +318,5 @@ if (isDay) {
     }
   }
 let list = "flour salt";
-list = list + "pepper"
+list = list + "pepper";
+console.log(list);
