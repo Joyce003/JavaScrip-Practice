@@ -361,4 +361,19 @@ for (initialExpression)
 //And here we declare an initialize variable. 
 //We use "let" to declare a variable like "i" and set it to zero.
 
-for (let i = 0)
+for (let i = 0; i < 5; i++) {
+  console.log('Hello World'); 
+}
+// i is short for index AND is a common convention to use for "for loops" and what we call the "loop variable".
+//We initialize it to 0, we terminate the statement with a semi-colon.
+//The 2nd part of the "for loop" is what we would call a conditional. 
+//So here when I add the condition and compare the value of i with something else, this loop will run as long as this condition of this value is set to true. 
+//So if I want this to run 5 times, I compar i with 5 (e.g. i <5). That is my condition, I want it to run 5 TIMES!
+//As long as i is less than 5, this loop will execute. Then we terminate the statement with a semi-colon.
+//Then we have this 3rd part. This is what we call "increment", and quite often what we have here is this: i++
+//We use the "increment operator" (which is ++) to increment the vaue of i with i.
+
+//Now after this for statement, add one or more statements just like the if statements, if you have multiple statements here, we have to put them in a "code block". This thing: {}
+//Now here we want to display "Hello World on the console." So our "statement" is console.log('Hello World'). 
+//So instead of repeating this line 5 times, we put it in a "for loop" and this loop will run 5 times. 
+//Now save.
