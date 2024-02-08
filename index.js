@@ -362,7 +362,7 @@ for (initialExpression)
 //We use "let" to declare a variable like "i" and set it to zero.
 
 for (let i = 0; i < 5; i++) {
-  console.log('Hello World'); 
+  console.log('Hello World', i); 
 }
 // i is short for index AND is a common convention to use for "for loops" and what we call the "loop variable".
 //We initialize it to 0, we terminate the statement with a semi-colon.
@@ -376,4 +376,20 @@ for (let i = 0; i < 5; i++) {
 //Now after this for statement, add one or more statements just like the if statements, if you have multiple statements here, we have to put them in a "code block". This thing: {}
 //Now here we want to display "Hello World on the console." So our "statement" is console.log('Hello World'). 
 //So instead of repeating this line 5 times, we put it in a "for loop" and this loop will run 5 times. 
-//Now save.
+//Now save. So now we have 5 'Hello World' messages on the console. That's the for loop in action. 
+
+//Now let's see how the for loop works.
+//"let i = 0" is what we call an "initial expression". Here we're initializing i to 0. Now this loop will execute as long as this condition (i < 5) is true. So as long as i is less than 5, the statements we have here will be executing.
+//Now, after the 1st iteration, i++ is incrementing by 1.
+//Then, this condition (i < 5) is evalauting again. So 1 is less than 5.
+//So 1 more time, this loop is executed. 
+//So we have a 2nd iteration. Now after the 2nd interation, once again, i++ is incremented by 1, so now we are in the 3rd iteration. 
+//Again this condition (i < 5) is evaluated and because it is true the loop is executing.
+
+//To show you this in action, I'm going to "output" (i.e. console.log) i.
+//And this is what we get: 
+  //Hello world 0
+  //Hello world 1
+  //Hello world 2
+  //Hello world 3
+  //Hello world 4
