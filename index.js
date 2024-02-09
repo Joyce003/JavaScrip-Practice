@@ -402,4 +402,11 @@ let arr = ["Hiking boots", "hat", 5];
 //we can creat array of strings
 //I can even create something like a number.
 //JavaScript doesn't tell us that we have to create an array of a certain type. We can creat an array of mixed types. 
-//So let's go ahead inside of our main functions
+//So let's go ahead inside of our main functions we're going to, instead of writing JavaScript in this file, use Rust. 
+
+//Computer Science Principles Lab: JavaScript
+  //It is common to want to perform actions on on each one of them "items".
+  //You can use a for loop to iterate through all the items in the array and access each element individually. There are two ways to do this.
+  //The first is with a standard for loop. when you create a for loop. When you create a for loop, you need to define
+
+  let myArray = 
