@@ -426,4 +426,6 @@ let arr = ["Hiking boots", "hat", 5];
     //Hello, Mike
     //Hello, Janet
     //Hello, Matt
-  //There is a variator of the for loop that you can use that 
+  //There is a variator of the for loop that you can use that eliminates the need for the iterator variable It's called the "for of loop".
+  //It works like this, you create your for loop but instead of 3 items that define it at the beginning, you define a "variable" that will be the elemtn of the array, repeating for each item in the array until there aren't any items left. 
+  //
