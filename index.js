@@ -407,6 +407,17 @@ let arr = ["Hiking boots", "hat", 5];
 //Computer Science Principles Lab: JavaScript
   //It is common to want to perform actions on on each one of them "items".
   //You can use a for loop to iterate through all the items in the array and access each element individually. There are two ways to do this.
-  //The first is with a standard for loop. when you create a for loop. When you create a for loop, you need to define
+  //The first is with a standard for loop. when you create a for loop. When you create a for loop, you need to define the "iterator variable", and then use that value to test if the loop should continue or not.
+  //Each array has a property called "length" that you can use in your for loop conditional test to see if the "iterator variable" exceeds the length of the array.
 
-  let myArray = 
+  let myArray = ["Doug", "Mike", "Janet", "Matt"]; 
+
+  //If I have an array like this one, there are 4 elements but remember, the last element has an index number of "3", so it is "one less" than the length of the array.
+  //We can use this to build our "for loop". We start the for loop like any other, "for". We create the "iterator variable." for let i queals zero. But in our test, we want to verify that the iterator is less than the value of the array length property. So when it reaches for, the test will fail.
+  for (let i = 0; i < myArray.length; i++) 
+  {
+    console.log("Hello, " + myArray[i])
+  }
+  //We then increment the iterator with each run of the loop, i++. 
+  //Inside the loop, we can access the element using the i variable. The value inside the bracket [] can be a literal number, a variable, or even a function that returns a value or another evaluation. 
+  //It just needs to be an integer, ultimately. Let's output it to the console. console.log. We'll create a greeting hello, comma, space, and then we'll add in myArray, and it'll add in the iterator variable i. 
