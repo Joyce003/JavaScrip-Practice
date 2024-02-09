@@ -430,6 +430,6 @@ let arr = ["Hiking boots", "hat", 5];
   //It works like this, you create your for loop but instead of 3 items that define it at the beginning, you define a "variable" that will be the elemtn of the array, repeating for each item in the array until there aren't any items left. 
   //You write it this way.
     //Start with the for statement, then create a pair of parentheses and define a variable for the array element. 
-    //we'll call it "let"
+    //we'll call it "let". Then use the "of" statement, and then add in the name of the array you want to loop through
 
-    for (let element of )
+    for (let element of myArray) 
