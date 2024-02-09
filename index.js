@@ -420,4 +420,5 @@ let arr = ["Hiking boots", "hat", 5];
   }
   //We then increment the iterator with each run of the loop, i++. 
   //Inside the loop, we can access the element using the i variable. The value inside the bracket [] can be a literal number, a variable, or even a function that returns a value or another evaluation. 
-  //It just needs to be an integer, ultimately. Let's output it to the console. console.log. We'll create a greeting hello, comma, space, and then we'll add in myArray, and it'll add in the iterator variable i. 
+  //It just needs to be an integer, ultimately. Let's output it to the console. console.log. We'll create a greeting hello, comma, space, and then we'll add in myArray, and it'll add in the iterator variable i. Save and load the browser. 
+  //You'll see the console displys each of the items. 
