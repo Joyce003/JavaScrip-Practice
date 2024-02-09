@@ -394,3 +394,12 @@ for (let i = 0; i < 5; i++) {
   //Hello world 3
   //Hello world 4
 //So note that in the 1st iteration i equals 0, then is incremented by 1 until it reaches 4. 
+
+//Arrays
+//So in JavaScript, an array is just a list of values.
+let arr = ["Hiking boots", "hat", 5];
+
+//we can creat array of strings
+//I can even create something like a number.
+//JavaScript doesn't tell us that we have to create an array of a certain type. We can creat an array of mixed types. 
+//So let's go ahead inside of our main functions
