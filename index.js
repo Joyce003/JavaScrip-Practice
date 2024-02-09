@@ -416,7 +416,7 @@ let arr = ["Hiking boots", "hat", 5];
   //We can use this to build our "for loop". We start the for loop like any other, "for". We create the "iterator variable." for let i queals zero. But in our test, we want to verify that the iterator is less than the value of the array length property. So when it reaches for, the test will fail.
   for (let i = 0; i < myArray.length; i++) 
   {
-    console.log("Hello, " + myArray[i])
+    console.log("Hello, " + myArray[i]);
   }
   //We then increment the iterator with each run of the loop, i++. 
   //Inside the loop, we can access the element using the i variable. The value inside the bracket [] can be a literal number, a variable, or even a function that returns a value or another evaluation. 
@@ -428,4 +428,8 @@ let arr = ["Hiking boots", "hat", 5];
     //Hello, Matt
   //There is a variator of the for loop that you can use that eliminates the need for the iterator variable It's called the "for of loop".
   //It works like this, you create your for loop but instead of 3 items that define it at the beginning, you define a "variable" that will be the elemtn of the array, repeating for each item in the array until there aren't any items left. 
-  //
+  //You write it this way.
+    //Start with the for statement, then create a pair of parentheses and define a variable for the array element. 
+    //we'll call it "let"
+
+    for (let element of )
