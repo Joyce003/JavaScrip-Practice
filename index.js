@@ -393,3 +393,4 @@ for (let i = 0; i < 5; i++) {
   //Hello world 2
   //Hello world 3
   //Hello world 4
+//So note that in the 1st iteration i equals 0, then is incremented by 1 until it reaches 4. 
